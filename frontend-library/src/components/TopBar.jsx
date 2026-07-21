@@ -4,7 +4,7 @@ function TopBar() {
             <form action="">
                 <input type="text" placeholder="Search..." />
 
-                <button type="submit">+ Add a Book</button>
+                <button type="submit"> + Add a Book</button>
             </form>
 
 
