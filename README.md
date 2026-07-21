@@ -1,21 +1,60 @@
-# Frontend Library
+# 📚 Frontend - Catálogo de Livros
 
-Este projeto é o front-end de uma aplicação de biblioteca que exibe um catálogo de livros com informações como título, autor, categoria, sinopse e imagem de capa.
+Bem-vindo ao frontend do nosso projeto! 🚀  
+Este projeto foi criado com Vite + React + TypeScript e tem como objetivo exibir uma coleção de livros de forma visual, organizada e amigável para o usuário.
 
-## Objetivo
+## 🌟 Sobre o projeto
 
-Apresentar os livros de forma visual e organizada, oferecendo uma experiência simples para navegação e descoberta de obras.
+Este frontend faz parte de uma aplicação maior, onde o objetivo é apresentar livros com informações como:
 
-## Funcionalidades
+- 🖼️ Imagem de capa
+- 📖 Título
+- ✍️ Autor
+- 🗂️ Categoria
+- 📝 Sinopse
 
-- Listagem de livros
-- Exibição de informações básicas de cada livro
-- Dados mockados em `src/data/books.js`
-- Interface simples e amigável
+Atualmente, os dados estão sendo carregados de forma local, o que facilita o desenvolvimento inicial da interface.
 
-## Estrutura do projeto
+## ✨ Funcionalidades
+
+- 📋 Listagem de livros
+- 🔍 Exibição de informações detalhadas
+- 🧩 Interface simples e moderna
+- 📦 Estrutura organizada para futuras melhorias
+
+## 🛠️ Tecnologias utilizadas
+
+- React
+- TypeScript
+- Vite
+- HTML
+- CSS
+
+## 📁 Estrutura do projeto
 
 ```text
 src/
+  components/
   data/
     books.js
+
+▶️ Como executar
+Instale as dependências:
+npm install
+
+Inicie o projeto em modo de desenvolvimento:
+npm run dev
+
+Acesse no navegador:
+http://localhost:5173
+
+🔧 Backend / API
+O backend da aplicação está sendo desenvolvido em um arquivo separado e ainda está em construção. 🏗️
+A ideia é, futuramente, integrar essa interface com uma API para buscar os dados de forma dinâmica.
+
+🚧 Status do projeto
+Este projeto está em desenvolvimento e sendo aprimorado continuamente. ⚙️
+
+👤 Autor
+Desenvolvido por: Natanael Felix
+    
