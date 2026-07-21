@@ -1,10 +1,12 @@
 function App() {
     return (
-        <nav>
+        <main>
             <div>
                 <h1>Books</h1>
             </div>
-        </nav>
+        </main>
     )
 
 }
+
+export default App;
