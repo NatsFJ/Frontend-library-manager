@@ -1,4 +1,4 @@
-function BookCard({book}) {
+function BookCard({book, onBookClick}) {
     return (
         <article className="book-card">
             <img src={book.coverImage} alt={book.title} />
