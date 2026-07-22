@@ -1,9 +1,12 @@
-function BookCard( {books}) {
+function BookCard({book}) {
     return (
-        <div className="book-card">
-            <img src={books.coverImage} alt={books.title} />
-
-
-
-    
+        <article className="book-card">
+            <img src={book.coverImage} alt={book.title} />
+            <h3>{book.title}</h3>
+            <p>{book.author}</p>
+            <p>{book.category}</p>
+        </article>   
+    );  
 }
+
+export default BookCard;
