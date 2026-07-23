@@ -1,12 +1,9 @@
-function App() {
+function Books () {
+    const [selectedBook, setSelectedBook] = useState(null);
+
     return (
-        <main>
-            <div>
-                <h1>Books</h1>
-            </div>
-        </main>
-    )
+       <main>
 
+       </main>
+    );
 }
-
-export default App;
