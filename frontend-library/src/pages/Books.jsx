@@ -2,6 +2,7 @@ import { useState } from "react";
 import TopBar from "../components/Topbar";
 import BookList from "../components/BookList";
 import BookDetails from "../components/Bookdetails";
+import books from "../data/books"
 
 function Books() {
     const [selectedBook, setSelectedBook] = useState(null);
@@ -14,8 +15,11 @@ function Books() {
 
             <TopBar />
             <section>
-                <BookList />
-                <BookDetails />
+                <BookList
+                    books={books}
+                    handleBookClick={handleBookClick} />
+                <BookDetails
+                    book={selectedBook} />
             </section>
         </main>
     )
